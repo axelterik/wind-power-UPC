@@ -5,6 +5,7 @@ clear all, close all, clc
 
 %% Setup
 % Wind farm location: Sweden? India?
+% link:
 
 % c = value from farm
 % z = value from farm
@@ -12,7 +13,7 @@ clear all, close all, clc
 % zref = from a specific country? 80 for spain
 % 
 
-c_prime = c * ln(z/z0)/ln(zref/z0)
+c_prime = c * ln(z/z0)/ln(zref/z0);
 
 %% Available energy generated
 
