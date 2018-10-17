@@ -104,12 +104,11 @@ COST = 0.67 *Pnom^0.81 + 2502*D^0.92%(assuming onshore)
 %D: Rotor diameter (m)
 %Calculate the LCOE.
 
-% NOT FINISHED, ONLY GUESSED
 CAPEX = COST %choose investment size
 OPEX = 1000 % set some cost for the year
 FIN = 1%financial cost
 AEP = AEP_curt;
-N = op_years; % economic lifetime
+N = op_years; % econom
 LCOE = ((CAPEX + FIN)/N + OPEX)/AEP
 
 %Analyze the influence of all the parameters of the wind turbine (length of blades, power rating, hub height, …)
